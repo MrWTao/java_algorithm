@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="561783ce-b788-4755-b59a-73ea0b079617" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alibaba/CoinsComponent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alibaba/StringPatternMatch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alibaba/TreeReverse.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/CheckPossibility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/easy/RemoveSameStr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/middle/AdvantageCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/middle/SwapListPairs.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -26,7 +25,17 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/CheckPossibility.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -59,6 +68,10 @@
         <option value="$PROJECT_DIR$/src/main/java/leetcode/easy/CoinsComponent.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/easy/StringPatternMatch.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/easy/TreeReverse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/easy/RemoveSameStr.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/middle/SwapListPairs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/middle/AdvantageCount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/easy/CheckPossibility.java" />
       </list>
     </option>
   </component>
@@ -115,6 +128,15 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_algorithm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="middle" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -127,7 +149,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565680953686" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565707014298" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -145,9 +167,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MaxCitation">
-    <configuration name="ArrayRemove" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.middle.ArrayRemove" />
+  <component name="RunManager" selected="Application.CheckPossibility">
+    <configuration name="AdvantageCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.middle.AdvantageCount" />
       <module name="wangtao.algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -159,8 +181,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BiliBili" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.easy.BiliBili" />
+    <configuration name="CheckPossibility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.easy.CheckPossibility" />
       <module name="wangtao.algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -185,12 +207,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxProfit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.middle.MaxProfit" />
+    <configuration name="RemoveSameStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.easy.RemoveSameStr" />
       <module name="wangtao.algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.middle.*" />
+          <option name="PATTERN" value="leetcode.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,8 +220,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiplyStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.middle.MultiplyStr" />
+    <configuration name="SwapListPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.middle.SwapListPairs" />
       <module name="wangtao.algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -213,11 +235,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckPossibility" />
+        <item itemvalue="Application.AdvantageCount" />
+        <item itemvalue="Application.SwapListPairs" />
+        <item itemvalue="Application.RemoveSameStr" />
         <item itemvalue="Application.MaxCitation" />
-        <item itemvalue="Application.MaxProfit" />
-        <item itemvalue="Application.ArrayRemove" />
-        <item itemvalue="Application.BiliBili" />
-        <item itemvalue="Application.MultiplyStr" />
       </list>
     </recent_temporary>
   </component>
@@ -238,17 +260,17 @@
       <workItem from="1565159927137" duration="20000" />
       <workItem from="1565658697769" duration="15620000" />
       <workItem from="1565698193159" duration="272000" />
-      <workItem from="1565698965313" duration="253000" />
+      <workItem from="1565698965313" duration="5020000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27777000" />
+    <option name="totallyTimeSpent" value="32544000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21965897" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21965897" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -257,13 +279,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25179857" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.15005139" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.3299075" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.27749228" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.50462484" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3299075" />
@@ -422,6 +444,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/RemoveSameStr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="38" column="29" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="38" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/middle/SwapListPairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="20" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="26" selection-end-column="20" />
+          <folding>
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/middle/AdvantageCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/easy/CheckPossibility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
         </state>
       </provider>
     </entry>
