@@ -1,4 +1,4 @@
-package alibaba;
+package leetcode.easy;
 
 import java.util.Arrays;
 
