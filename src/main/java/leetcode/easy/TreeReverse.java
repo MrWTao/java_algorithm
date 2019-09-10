@@ -37,7 +37,7 @@ public class TreeReverse {
     }
 
     // 层序遍历输出，方便检验结果
-    private static void printTree(TreeNode root) {
+    public static void printTree(TreeNode root) {
         if (root == null) {
             return;
         }
