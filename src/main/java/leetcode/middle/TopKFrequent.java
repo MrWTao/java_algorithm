@@ -2,6 +2,9 @@ package leetcode.middle;
 
 import java.util.*;
 
+/**
+ * 计算字符串数组中出现次数最多的前K个元素，如果出现次数相同按字典序输出
+ */
 public class TopKFrequent {
     public static void main(String[] args) {
         String[] words = {"i", "love", "leetcode", "i", "love", "coding"};
