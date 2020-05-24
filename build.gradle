@@ -1,13 +1,17 @@
 plugins {
     id 'java'
+    id 'idea'
 }
 
 group 'wangtao'
 version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 repositories {
+    // 较低版本的gradle配置阿里云仓库方式和高版本不同
+    mavenCentral(url: "http://maven.aliyun.com/nexus/content/groups/public/")
     mavenCentral()
 }
 
